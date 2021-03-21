@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HAPPY BIRTDAY RISMA </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<audio hidden autoplay loop>
+		<source src="audio/12.mp3" type="audio/mpeg">
+	</audio>
+	<section>
+		<video id=slider autoplay muted loop>
+			<source src="video/video1.mp4" type="video/mp4">
+		</video>
+		<ul class="navigation">
+			<li onclick="videoUrl('video/video1.mp4')"><img src="thum/thum1.png" width="80px"></li>
+			<li onclick="videoUrl('video/video2.mp4')"><img src="thum/thum2.png" width="80px"></li>
+			<li onclick="videoUrl('video/video3.mp4')"><img src="thum/thum3.jpg" width="80px"></li>
+		</ul>
+	</section>
+	<script type="text/javascript">
+		function videoUrl(hmmmmmm){
+			document.getElementById("slider").src = hmmmmmm;
+		}
+	</script>
+</body>
+</html>
